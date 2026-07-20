@@ -1,0 +1,63 @@
+Command	Syntax	Purpose
+Initialize Repository	git init	Creates a new Git repository in the current folder.
+Check Status	git status	Shows modified, staged, and untracked files.
+Configure Username	git config --global user.name "Your Name"	Sets the Git username.
+Configure Email	git config --global user.email "you@example.com"	Sets the Git email address.
+Add Single File	git add filename	Adds a specific file to the staging area.
+Add All Files	git add .	Adds all changed files to the staging area.
+Commit Changes	git commit -m "Initial commit"	Saves the staged changes with a message.
+View Commit History	git log	Displays the commit history.
+Create New Branch	git branch branch-name	Creates a new branch.
+List Branches	git branch	Displays all local branches.
+Switch Branch	git checkout branch-name	Switches to another branch.
+Create & Switch Branch	git checkout -b branch-name	Creates and immediately switches to a new branch.
+Merge Branch	git merge branch-name	Merges the specified branch into the current branch.
+Delete Branch	git branch -d branch-name	Deletes a local branch.
+Add Remote Repository	git remote add origin https://github.com/user/repository.git	Connects the local repository to GitHub.
+View Remote	git remote -v	Shows remote repository URLs.
+Push First Time	git push -u origin main	Pushes the main branch and sets upstream.
+Push Changes	git push origin main	Uploads local commits to GitHub.
+Pull Latest Changes	git pull origin main	Downloads and merges changes from GitHub.
+Clone Repository	git clone https://github.com/user/repository.git	Downloads an existing GitHub repository.
+Fetch Updates	git fetch	Retrieves updates without merging them.
+View Differences	git diff	Shows changes between working directory and repository.
+Restore File	git restore filename	Restores a file to its previous state.
+Remove File	git rm filename	Deletes a file and stages the deletion.
+Rename File	git mv oldname newname	Renames a file in Git.
+View Remote Branches	git branch -r	Lists remote branches.
+View All Branches	git branch -a	Lists local and remote branches.
+Stash Changes	git stash	Temporarily saves uncommitted changes.
+Apply Stash	git stash pop	Restores the most recent stashed changes.
+Typical Git Workflow
+git init
+git status
+git add .
+git commit -m "Initial Commit"
+git branch feature
+git checkout feature
+git add .
+git commit -m "Feature Added"
+git checkout main
+git merge feature
+git remote add origin https://github.com/username/repository.git
+git push -u origin main
+git pull origin main
+git push origin main
+Frequently Used Commands
+git init
+git status
+git add filename
+git add .
+git commit -m "message"
+git branch branch-name
+git checkout branch-name
+git checkout -b branch-name
+git merge branch-name
+git pull origin main
+git push origin main
+git push -u origin main
+git clone repository-url
+git log
+git diff
+
+These are the most commonly used Git and GitHub commands for beginners, practical labs, interviews, and day-to-day development.
